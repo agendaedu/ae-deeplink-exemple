@@ -37,7 +37,7 @@ cd android
 - o instalador estará disponível na pasta AgendaEdu Exemple/android/app/build/outputs/apk/debug/app-debug.apk
 
 
-# Documentações relacionada
+# Documentações relacionadas
 
 - sandbox é um ambiente a qual foi previamente configurado por você ou pela AgendaEdu, isso deve simular um ambiente de produção
-- Linking](https://reactnative.dev/docs/linking)
+- [Linking](https://reactnative.dev/docs/linking)
