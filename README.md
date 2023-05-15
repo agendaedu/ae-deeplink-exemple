@@ -1,4 +1,4 @@
-# Bem-vindo ao Deeplink de Parceiros AgendaEdu
+# Bem-vindo ao Deep link de Parceiros AgendaEdu
 
 Está documentação visa exemplificar o fluxo nas chamadas entre a Agenda Edu e seus parceiros utilizando a tecnologia de [Linking]( https://reactnative.dev/docs/linking). Vale salientar que tal tecnologia também irá ter total compatibilidade com aplicativos desenvolvidos de forma nativa para Android e iOS.
 
