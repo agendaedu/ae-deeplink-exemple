@@ -8,8 +8,9 @@ Dentro deste repositório você encontra dois aplicativos exemplo, um com objeti
 
 
 > AgendaEdu Exemple: simular o comportamento da AgendaEdu
+
 > Partner Exemple: exemplificar um parceiro que utiliza deeplink
-> 
+
 # Instalação e execução
 Os projeto foram desenvolvidos sem dependência cruzada, isso é, você deve realizar essa instalação para ambos os projetos.
 
