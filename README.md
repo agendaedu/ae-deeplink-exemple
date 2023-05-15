@@ -1,10 +1,10 @@
 # Bem-vindo ao Deep link de Parceiros AgendaEdu
 
-Está documentação visa exemplificar o fluxo nas chamadas entre a Agenda Edu e seus parceiros utilizando a tecnologia de [Linking]( https://reactnative.dev/docs/linking). Vale salientar que tal tecnologia também irá ter total compatibilidade com aplicativos desenvolvidos de forma nativa para Android e iOS.
+Esta documentação tem como objetivo exemplificar o fluxo das chamadas entre a Agenda Edu e seus parceiros utilizando a tecnologia de [Linking]( https://reactnative.dev/docs/linking). É importante ressaltar que essa tecnologia também é totalmente compatível com aplicativos desenvolvidos nativamente para Android e iOS.
 
 # Arquivos
 
-Dentro deste repositório você encontra dois aplicativos exemplo, um com objetivo de **simular o comportamento da AgendaEdu** e outro **exemplificar um parceiro que utiliza dee plink** 
+Neste repositório, você encontrará dois aplicativos exemplo. Um deles tem como objetivo **simular o comportamento da AgendaEdu**, enquanto o outro exemplifica um parceiro que utiliza deep link.
 
 
 > AgendaEdu Exemple: simula o comportamento da AgendaEdu
@@ -12,19 +12,26 @@ Dentro deste repositório você encontra dois aplicativos exemplo, um com objeti
 > Partner Exemple: exemplifica um parceiro que utiliza deep link
 
 # Instalação e execução
-Os projeto foram desenvolvidos sem dependência cruzada, isso é, você deve realizar a instalação para ambos os projetos.
+Os projetos foram desenvolvidos sem dependências cruzadas, ou seja, você deve realizar a instalação para ambos os projetos.
 
-##### instalando as dependências
+Para instalar as dependências, siga os passos abaixo:
+
+1\. Acesse o diretório do AgendaEdu Exemplo:
 ```bash
 cd AgendaEdu Exemple
+``` 
+
+2\. Instale as dependências:
+```bash
 yarn install
 ``` 
-##### Execute no Android
+3\. Para executar no Android, utilize o seguinte comando:
+
 ```bash
 yarn android
 ``` 
 
-Se você deseja executar  ambos os projetos ao mesmo tempo ou **executar  seu aplicativo parceiro criado em RN**, você pode segmentar as portas de execução do metro da seguinte maneira
+Se você deseja executar ambos os projetos ao mesmo tempo ou **executar seu aplicativo parceiro criado em RN**, você pode segmentar as portas de execução do Metro da seguinte maneira:
 
 ##### AgendaEdu Exemple
 ```bash
