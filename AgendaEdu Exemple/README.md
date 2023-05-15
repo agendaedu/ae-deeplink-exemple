@@ -3,9 +3,9 @@
 
 | tela                             | descrição            |
 | -------------------------------- | -------------------- |
-| ![sandbox](https://github.com/agendaedu/ae-deeplink-exemple/assets/18338570/f6cf1e9c-3013-4b18-aed5-cbe0bfcff79b)      | Testar via sandbox. Com isso você é capaz de simular a geração de seu deeplink atravez da AgendaEdu. Após os dados serem buscado no sandbox o botão estará carregado com o seus dados e aptos a chamar o seu aplicativo parceiro da Agenda Edu.   |             
-| ![personalizar](https://github.com/agendaedu/ae-deeplink-exemple/assets/18338570/f5229270-a54c-4ead-a4a9-38500d1f8859)  | Você pode utilizar esse utilitário para realizar testes de forma local. Nele você encontra inputs de schema, dados e logo do seu deeplink, ao final você terá o botão totalmente funcional e personalizado para realizar testes locais com seu aplicativo.        |               
-| ![Agenda_exemplo](https://github.com/agendaedu/ae-deeplink-exemple/assets/18338570/2ae80ead-3c58-4e10-a237-b5a2977231c7)| Exemplo básico, utilizado para provar ou apenas entender o funcionamento da chamada de deeplink |
+| ![sandbox](https://github.com/agendaedu/ae-deeplink-exemple/assets/18338570/f6cf1e9c-3013-4b18-aed5-cbe0bfcff79b)      | Testar via sandbox. Com isso você é capaz de construir um ambiente similiar ao de produção AgendaEdu, o sandbox irá  contruir/gerarar o seu deep link no fluxo de staging AgendaEdu. Após os dados serem buscados no sandbox o botão estará carregado com o seus dados e apto a chamar o seu aplicativo parceiro com todas as configurações.  |             
+| ![personalizar](https://github.com/agendaedu/ae-deeplink-exemple/assets/18338570/f5229270-a54c-4ead-a4a9-38500d1f8859)  | Você pode utilizar esse utilitário para realizar testes de forma local. Nele você encontra inputs de schema, dados e logo do seu deep link, ao final você terá o botão totalmente funcional e personalizado para realizar testes locais com seu aplicativo parceiro.        |               
+| ![Agenda_exemplo](https://github.com/agendaedu/ae-deeplink-exemple/assets/18338570/2ae80ead-3c58-4e10-a237-b5a2977231c7)| Exemplo básico, utilizado para provar ou apenas entender o funcionamento da chamada de deep link |
                                      
 
 
@@ -17,7 +17,7 @@ exemplo:
 Linking.openURL(meuapp://dados/maisdados)
 ``` 
 
-# Como construir um instalador apk a partir do projeto
+# Como construir um instalador apk a partir deste projeto
 
 para construir um instalador apk basta você executar os comandos
 

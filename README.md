@@ -4,22 +4,22 @@ Está documentação visa exemplificar o fluxo nas chamadas entre a Agenda Edu e
 
 # Arquivos
 
-Dentro deste repositório você encontra dois aplicativos exemplo, um com objetivo de **simular o comportamento da AgendaEdu** e outro **exemplificar um parceiro que utiliza deeplink** 
+Dentro deste repositório você encontra dois aplicativos exemplo, um com objetivo de **simular o comportamento da AgendaEdu** e outro **exemplificar um parceiro que utiliza dee plink** 
 
 
-> AgendaEdu Exemple: simular o comportamento da AgendaEdu
+> AgendaEdu Exemple: simula o comportamento da AgendaEdu
 
-> Partner Exemple: exemplificar um parceiro que utiliza deeplink
+> Partner Exemple: exemplifica um parceiro que utiliza deep link
 
 # Instalação e execução
-Os projeto foram desenvolvidos sem dependência cruzada, isso é, você deve realizar essa instalação para ambos os projetos.
+Os projeto foram desenvolvidos sem dependência cruzada, isso é, você deve realizar a instalação para ambos os projetos.
 
-##### installe as dependências
+##### instalando as dependências
 ```bash
 cd AgendaEdu Exemple
 yarn install
 ``` 
-##### Execute no android
+##### Execute no Android
 ```bash
 yarn android
 ``` 
@@ -35,7 +35,7 @@ yarn android --port=8081
 ```bash
 yarn android --port=8088
 ``` 
-desta forma você poderá testar as duas aplicações de forma paralela e em tempo de execução.
+desta forma você poderá testar as duas aplicações simultaneamente em tempo de execução.
 
 # Mais detalhes
 Dentro de cada projeto você encontra maiores detalhes e especificações.

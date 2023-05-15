@@ -14,8 +14,8 @@ Neste Exemplo utilizamos o mais comumente [Deep Link do React Navigation](https:
 npx uri-scheme add apppartner --android.
 ```
 
-- Se você quiser adicioná-lo manualmente, abra android/app/src/main/AndroidManifest.xmle faça os seguintes ajustes: 
-  Adicione o novo intent-filter dentro da entrada MainActivity ficando parecido com isso:
+- Se você quiser adicioná-lo manualmente, abra a pasta android/app/src/main/AndroidManifest.xml e faça os seguintes ajustes: 
+   - Adicione o novo intent-filter dentro da entrada MainActivity
 
 ```xml
 <activity
@@ -38,7 +38,7 @@ fazendo isso seu aplicativo estará ouvindo as chamadas no schema apppartner
 
 ### Configurando ambiente iOS
 
-Você precisará vincular RCTLinking ao seu projeto seguindo as etapas descritas aqui. Para poder ouvir os links de aplicativos, você precisará adicionar as seguintes linhas ao AppDelegate.m:
+Você precisará vincular RCTLinking ao seu projeto seguindo as etapas descritas aqui. Para poder ouvir os links de aplicativos, você precisará adicionar as seguintes linhas ao arquivo AppDelegate.m:
 
 
 ```swift
@@ -72,7 +72,7 @@ Agora você precisa adicionar o esquema à configuração do seu projeto.
  A maneira mais fácil de fazer isso é com o pacote  uri-scheme: 
 
 ```bash
-npx uri-scheme add mychat --ios
+npx uri-scheme add apppartner --ios
 ``` 
 
 # Como tratar os dados via Deep Link
@@ -81,5 +81,5 @@ Se você utilizou o React Navigation consulte a documentação [Configuring Link
 
 
 # Documentações relacionadas
-- https://reactnavigation.org/docs/deep-linking/
+- https://reactnavigation.org/docs/deep-linking/#set-up-with-bare-react-native-projects
 - https://reactnavigation.org/docs/configuring-links
