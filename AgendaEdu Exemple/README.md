@@ -25,11 +25,11 @@ para construir um instalador apk basta você executar os comandos
 ```bash
 react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res
 ``` 
-- navegue até a basta android
+- navegue até a pasta android
 ```bash
 cd android
 ``` 
-- execute o buil
+- execute o build
 ```bash
 ./gradlew assembleDebug
 ``` 
